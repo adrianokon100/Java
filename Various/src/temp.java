@@ -1,4 +1,4 @@
-public class temp {
+public class CountingDuplicatesVersion2 {
   public static int duplicateCount(String text) {
    
 	int ans = 0;
