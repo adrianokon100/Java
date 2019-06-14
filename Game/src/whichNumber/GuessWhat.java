@@ -30,7 +30,7 @@ public class GuessWhat {
 		howMany = console.nextInt();
 		
 		if(howMany > (rightRange - leftRange)) {
-			System.out.println("You can't take more chances that you hvae possibilities! Try again.");
+			System.out.println("You can't take more chances that you have possibilities! Try again.");
 		}
 		
 		}while(howMany > (rightRange - leftRange));
@@ -50,7 +50,7 @@ public class GuessWhat {
 			
 			else {
 				int youHave = howMany - (i+1);
-				System.out.println("Sorry. You habe: " + youHave + " attempts \n");
+				System.out.println("Sorry. You have: " + youHave + " attempts \n");
 				
 				if(youHave == 0){
 					System.out.println("Maybe You will win next time? ;-)");
