@@ -11,7 +11,6 @@ public class Palindrom {
 //Q #8) Write a Java Program to find whether a string or number is palindrome or not.
 
 		
-		
 		Scanner in = new Scanner(System.in);
 		System.out.println("Please, give me a integer or string and I will chek if it is a palindrom");
 		
@@ -25,7 +24,7 @@ public class Palindrom {
 		reverseWord.reverse();
 		String takeReverseWord = reverseWord.toString();
 		
-		//I compare to chek it is palindrom or not
+		//I compare: it is palindrom or not
 		if(takeReverseWord.equals(isPalindrom)) {
 			System.out.println("Word: " + isPalindrom + " is palindrom" );
 		}
@@ -75,7 +74,7 @@ public class Palindrom {
 		}
 		
 		
-		// I chek it is palindrom or not
+		// I check it is palindrom or not
 		
 		if(reverseNumber.equals(correctNumber)) {
 			System.out.println("The number is palindrom");

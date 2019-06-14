@@ -17,8 +17,6 @@ public class Lists {
 		// TODO Auto-generated method stub
 
 //Q #10) Write a Java Program to iterate ArrayList using for-loop, while-loop, and advance for-loop.
-
-
 		
 		
 	List<String> list = new ArrayList<String>();
@@ -60,13 +58,8 @@ public class Lists {
 	listOne.add(22);
 	listOne.add(22);
 	listOne.add(2);
-
-
-
 	
 	System.out.println("List: " + listOne);
-
-
 	
 	List<Integer> listTwo = new LinkedList<Integer>();
 	Set<Integer> setThree = new HashSet<Integer>();
@@ -122,25 +115,6 @@ public class Lists {
 
 */
 	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
 	}
-
+	
 }

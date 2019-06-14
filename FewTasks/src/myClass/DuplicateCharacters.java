@@ -16,10 +16,8 @@ public class DuplicateCharacters {
 
 //Q #15) Write a Java Program to find the duplicate characters in a string. 
 
-		
-
-		
-		
+				
+	
 
 // Method 1
 		
@@ -140,13 +138,6 @@ public class DuplicateCharacters {
 					
 			}
 				
-*/			
-		
-		
-
-		
-		
-		
-	}
+*/}
 
 }

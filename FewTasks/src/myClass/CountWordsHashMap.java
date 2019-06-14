@@ -11,11 +11,10 @@ public class CountWordsHashMap {
 	public static void main(String[] args) {
 
 //Q #5) Write a Java Program to count the number of words in a string using HashMap.
-//Maps in java - Implements interface java.util.Map<K,V>. Key - object.
 	
 /*		
 		
-	String countWords = "You can do it you can really it it is simple";
+	String countWords = "You can do it, just You need more practice";
 	HashMap<String, Integer> myMap = new HashMap<String, Integer>();
 	
 	String[] listOfWords = countWords.split(" ");
@@ -30,7 +29,6 @@ public class CountWordsHashMap {
 			myMap.put(listOfWords[i], 1);
 			
 		}
-		
 		
 	}
 	
@@ -66,7 +64,7 @@ public class CountWordsHashMap {
 	}
 	
 	
-// Different		
+// Different task with map	
 /*		
 	Map<Integer, String> myMap = new HashMap<Integer, String>();
 	myMap.put(0, "Asia");

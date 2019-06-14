@@ -7,7 +7,6 @@ public class Reverse {
 	public static void main(String[] args) {
 
 //Q #1) Write a Java Program to reverse a string without using String inbuilt function.
-
 		
 	/*
 	String name = "LevelUp";
@@ -17,12 +16,11 @@ public class Reverse {
 		StringBuilder inverseName = new StringBuilder();
 		inverseName.append(name);
 		inverseName = inverseName.reverse();
-		System.out.println("When we inverse this name - We get: "+inverseName);
-		
+		System.out.println("When we inverse this name - We get: "+inverseName);		
 	*/	
 		
 	/*
-	//Test - why StringBuilder is better than String sometimes 	
+	//Test - why StringBuilder is better sometimes than String
 		
 		System.out.println("\n\n");
 		String s = "a";
