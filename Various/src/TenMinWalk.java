@@ -6,19 +6,18 @@ public class TenMinWalk {
 	
   public boolean isValid(char[] walk) {
 	  
-    //Spacer musi trwaæ dok³adnie 10 minut
+    //The walk have to takes 10 minutes
 	  if(walk.length != MIN_MAX_WALK) {
 		  return false;
 	  }
 	  
-    //Jeœli trwa, to sprawdzam, czy koñczy siê w tym samym miejscu co zaczyna
+    //If takes 10 minutes, check if will finish in this same place where he started
 	  else {
 		  
 		  int endRow = START_PLACE;
 		  int endColumn = START_PLACE;
 		  for(int i=0; i<walk.length; i++) {
 			 
-			  //Nie za bardzo wiem jak mia³bym zrobiæ z tego pêtle, to da³em switch
 			  switch(walk[i]) {
 			  
 			  case 'n':
@@ -38,9 +37,8 @@ public class TenMinWalk {
 			  
 		  }
 		  
-		  //porównujê koñcowe wartoœci z pocz¹tkowymi czy s¹ taie same -
-		  //znaczy, czy wróci³ do miejsca pocz¹tkowego
-		  //S³uszna uwaga, niepotrzebne zmienne usun¹³em
+		  //compare finish values with init values - if are the same is good
+		  //znaczy, czy wrÃ³ciÅ‚ do miejsca poczÄ…tkowego
 		  if(START_PLACE == endRow && START_PLACE == endColumn) {
 			  return true;
 		  }
