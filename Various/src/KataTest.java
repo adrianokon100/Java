@@ -1,4 +1,6 @@
 
+// Print the phone number in the right format
+
 public class KataTest {
 
 	public static void main(String[] args) {
