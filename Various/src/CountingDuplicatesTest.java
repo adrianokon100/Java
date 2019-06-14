@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+//How many times the sign is more than once?
 public class CountingDuplicatesTest {
 
 	public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class CountingDuplicatesTest {
 
 		
 		CountingDuplicates countingDuplicates = new CountingDuplicates();
-		temp temp = new temp();
+		CountingDuplicatesVersion2 temp = new CountingDuplicatesVersion2();
 		
 		
 		
